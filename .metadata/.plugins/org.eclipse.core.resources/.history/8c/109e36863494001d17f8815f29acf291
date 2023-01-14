@@ -19,7 +19,6 @@ public class Carro {
 		}
 		// resolver problema do civic e da ferrari que não tem mais construtor padrão
 	}
-	
 
 	void Frear() {
 

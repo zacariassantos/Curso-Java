@@ -4,7 +4,7 @@ public class TesteCarro {
 
 	public static void main(String[] args) {
 		
-		Ferrari c1 = new Ferrari(0);
+		Ferrari c1 = new Ferrari();
 		
 		c1.Acelerar();
 		System.out.println(c1);
