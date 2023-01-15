@@ -1,0 +1,6 @@
+package OO.encapsulamento;
+
+public class Pessoa {
+
+	public int idade;
+}
