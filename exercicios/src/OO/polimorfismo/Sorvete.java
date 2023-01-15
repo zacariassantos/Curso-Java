@@ -1,23 +1,9 @@
 package OO.polimorfismo;
 
-public class Sorvete {
+public class Sorvete extends Comida {
 
-	private double peso;
-	
 	public Sorvete(double peso) {
-		setPeso(peso);
+		super(peso);
 	}
-
-	public double getPeso() {
-		return peso;
-	}
-
-	public void setPeso(double peso) {
-		if(peso >= 0) {
-			this.peso = peso;	
-		}
-		
-	}
-	
 	
 }
